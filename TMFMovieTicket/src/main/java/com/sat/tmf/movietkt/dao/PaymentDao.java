@@ -28,7 +28,8 @@ public class PaymentDao extends GenericDao<Payment, Integer> {
         Query query = session.createQuery(
                 "from Payment where booking.id = :bid", Payment.class);
         query.setParameter("bid", bookingId);
-        return query.uniqueResult();
+        query.setMaxResults(1);
+        return (Payment) ((org.hibernate.query.Query) query).uniqueResult(); 
     }
 }
 

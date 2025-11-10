@@ -20,7 +20,7 @@ import com.sat.tmf.movietkt.service.BookingService;
 
 @Service
 @Transactional
-public class BookingServiceImpl implements BookingService {
+public  class BookingServiceImpl implements BookingService {
 
     @Autowired private BookingDao bookingDao;
     @Autowired private TemplateSeatDao seatDao;
@@ -79,5 +79,11 @@ public class BookingServiceImpl implements BookingService {
         booking.setStatus("CANCELLED");
         bookingDao.saveOrUpdate(booking);
     }
+
+	@Override
+	public Booking findById(Integer bookingId) {
+		
+		return bookingDao.findById(bookingId);
+	}
 }
 
