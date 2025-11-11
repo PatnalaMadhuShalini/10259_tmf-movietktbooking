@@ -14,6 +14,7 @@ The above error  means a line of code from a previous version of your project th
   So added  -> query.setMaxResults(1);
              return (Payment) ((org.hibernate.query.Query) query).uniqueResult(); 
 
+
 //   Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
 // Reason: Failed to determine a suitable JDBC URL
 // Action:
@@ -27,4 +28,5 @@ The above error  means a line of code from a previous version of your project th
 //   Description:A component required a bean named 'entityManagerFactory' that could not be found.
 // Action:Consider defining a bean named 'entityManagerFactory' in your configuration.
 
-    
+
+
