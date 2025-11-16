@@ -1,7 +1,10 @@
 package com.sat.tmf.movietkt.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -9,14 +12,14 @@ import com.sat.tmf.movietkt.dao.UserDao;
 import com.sat.tmf.movietkt.entities.User;
 import com.sat.tmf.movietkt.service.UserService;
 
-import java.util.List;
-
 @Service
 @Transactional
 public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserDao userDao;
+    
+    //private final PasswordEncoder passwordEncoder; 
 
     private final BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 

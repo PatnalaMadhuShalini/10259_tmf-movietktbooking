@@ -9,6 +9,11 @@ public class HomeController {
     @GetMapping("/")
     public String home(Model model) {
         model.addAttribute("message", "🎬 Welcome to TMF Movie Ticket App with Spring Boot MVC");
-        return "home";
+      
+     
+        model.addAttribute("contentPage", "/WEB-INF/views/pages/home.jsp"); 
+        model.addAttribute("pageTitle", "Home");
+
+        return "layout/layout"; // This returns your main layout JSP file
     }
 }
