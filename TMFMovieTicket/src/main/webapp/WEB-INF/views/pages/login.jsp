@@ -22,7 +22,7 @@
         </div>
         <button type="submit" class="btn btn-success w-100">Login</button>
         <p class="text-center mt-3">New user? 
-           <a href="${pageContext.request.contextPath}/register">Register now</a>
+           <a href="${pageContext.request.contextPath}/user/register">Register now </a>
         </p>
     </form>
 </div>
