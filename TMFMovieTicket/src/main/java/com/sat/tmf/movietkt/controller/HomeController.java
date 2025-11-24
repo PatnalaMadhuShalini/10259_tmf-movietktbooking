@@ -16,4 +16,14 @@ public class HomeController {
 
         return "layout/layout"; // This returns your main layout JSP file
     }
+
+    @GetMapping("/login")
+    public String loginRedirect() {
+        return "redirect:/user/login";
+    }
+
+    @GetMapping("/register")
+    public String registerRedirect() {
+        return "redirect:/user/register";
+    }
 }

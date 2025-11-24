@@ -31,6 +31,8 @@ public class SecurityConfig {
                 .requestMatchers(
                     "/",          // Home Controller Mapping
                     "/home",      // Home Controller Mapping
+                    "/login",     // Convenience redirect to custom login
+                    "/register",  // Convenience redirect to custom register
                     "/user/login",      // UserController Login Mapping
                     "/user/register",   // UserController Register Mapping
                     "/movies",

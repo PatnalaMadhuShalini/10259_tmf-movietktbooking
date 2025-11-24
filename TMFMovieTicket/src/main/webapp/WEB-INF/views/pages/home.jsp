@@ -181,10 +181,10 @@
                         <a class="nav-link" href="/movies">Movies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/login">Login</a>
+                        <a class="nav-link" href="${pageContext.request.contextPath}/user/login">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-primary ms-2" href="/register">Sign Up</a>
+                        <a class="nav-link btn btn-primary ms-2" href="${pageContext.request.contextPath}/user/register">Sign Up</a>
                     </li>
                 </ul>
             </div>
@@ -203,7 +203,7 @@
                     <a href="/movies" class="btn btn-primary btn-lg me-3">
                         <i class="fas fa-ticket-alt me-2"></i>Browse Movies
                     </a>
-                    <a href="/register" class="btn btn-outline-light btn-lg">
+                    <a href="${pageContext.request.contextPath}/user/register" class="btn btn-outline-light btn-lg">
                         <i class="fas fa-user-plus me-2"></i>Get Started
                     </a>
                 </div>
@@ -316,8 +316,8 @@
                     <h6>Quick Links</h6>
                     <ul class="list-unstyled">
                         <li><a href="/movies" class="text-light text-decoration-none">Movies</a></li>
-                        <li><a href="/login" class="text-light text-decoration-none">Login</a></li>
-                        <li><a href="/register" class="text-light text-decoration-none">Sign Up</a></li>
+                        <li><a href="${pageContext.request.contextPath}/user/login" class="text-light text-decoration-none">Login</a></li>
+                        <li><a href="${pageContext.request.contextPath}/user/register" class="text-light text-decoration-none">Sign Up</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">

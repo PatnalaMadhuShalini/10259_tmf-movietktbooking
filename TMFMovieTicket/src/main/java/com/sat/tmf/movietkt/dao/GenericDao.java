@@ -140,5 +140,16 @@ public abstract class GenericDao<T, ID extends Serializable> {
     public interface SessionOperation {
         void execute(Session session);
     }
+    
+////    protected Session getSession1() {
+////        try {
+////            return sessionFactory.getCurrentSession();
+////        } catch (org.hibernate.HibernateException e) {
+////            // Fail fast with a clear message to make debugging easier
+////            throw new IllegalStateException("No current Hibernate session. Is transaction management configured? " +
+////                "Check that @EnableTransactionManagement is present and that the transaction manager is wired.", e);
+////        }
+//    }
+
 }
 

@@ -31,7 +31,12 @@ public class UserServiceImpl implements UserService {
             throw new RuntimeException("Email already exists!");
 
         user.setPassword(passwordEncoder.encode(user.getPassword()));
-        userDao.save(user);
+//        userDao.save(user);
+//        return user;
+        Integer id = userDao.save(user);
+        userDao.flush(); // ensures session is flushed to DB in the transaction
+        // optionally set the generated id back if your save method returns ID:
+        user.setId((Integer) id); // only if ID type is Integer and save returned it
         return user;
     }
 
