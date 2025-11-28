@@ -31,14 +31,21 @@ public class MovieReviewController {
     @GetMapping("/{id}")
     public String movieDetails(@PathVariable Integer id, Model model) {
         Movie movie = movieService.findById(id);
+        if (movie == null) {
+            model.addAttribute("message", "Movie not found");
+            model.addAttribute("contentPage", "/WEB-INF/views/pages/notFound.jsp");
+            model.addAttribute("pageTitle", "Movie Not Found");
+            return "layout/layout";
+        }
+
         List<MovieReview> reviews = reviewService.findByMovie(movie);
         Double avgRating = reviewService.getAverageRating(movie);
 
         model.addAttribute("movie", movie);
         model.addAttribute("reviews", reviews);
         model.addAttribute("avgRating", avgRating);
-        model.addAttribute("contentPage", "/WEB-INF/views/user/movieDetails.jsp");
-        model.addAttribute("pageTitle", movie.getTitle());
+        model.addAttribute("contentPage", "/WEB-INF/views/pages/movieDetails.jsp");
+        model.addAttribute("pageTitle", movie.getTitle() != null ? movie.getTitle() : "Movie Details");
         return "layout/layout";
     }
 
@@ -53,9 +60,16 @@ public class MovieReviewController {
         }
 
         Movie movie = movieService.findById(id);
+        if (movie == null) {
+            return "ERROR: Movie not found";
+        }
+
         User user = userService.findByUsername(principal.getName());
+        if (user == null) {
+            return "ERROR: User not found";
+        }
+
         reviewService.addReview(movie, user, rating, comment);
         return "OK";
     }
 }
-

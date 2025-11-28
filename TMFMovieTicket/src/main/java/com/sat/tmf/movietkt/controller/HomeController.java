@@ -18,12 +18,15 @@ public class HomeController {
     }
 
     @GetMapping("/login")
-    public String loginRedirect() {
-        return "redirect:/user/login";
+    public String loginPage(Model model) {
+        // Serve the login page directly at /login (aligns with Spring Security default processing URL)
+        model.addAttribute("pageTitle", "Login");
+        return "pages/login";
     }
 
     @GetMapping("/register")
-    public String registerRedirect() {
-        return "redirect:/user/register";
+    public String registerPage(Model model) {
+        model.addAttribute("pageTitle", "Register");
+        return "pages/register";
     }
 }

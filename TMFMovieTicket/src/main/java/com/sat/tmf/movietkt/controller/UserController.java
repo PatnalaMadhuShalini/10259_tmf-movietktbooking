@@ -22,9 +22,9 @@ public class UserController {
     @GetMapping("/register")
     public String showRegisterPage(Model model) {
         model.addAttribute("user", new User());
-        model.addAttribute("contentPage", "/WEB-INF/views/pages/register.jsp");
+        // Return the register page directly to avoid layout includes during login/register
         model.addAttribute("pageTitle", "Register");
-        return "layout/layout";
+        return "pages/register"; // resolves to /WEB-INF/views/pages/register.jsp
     }
 
 //    @PostMapping("/register")
@@ -43,7 +43,8 @@ public class UserController {
         try {
             userService.register(user);
             redirectAttrs.addFlashAttribute("message", "Registration successful! You can now log in.");
-            return "redirect:/user/login";
+            // redirect to canonical /login
+            return "redirect:/login";
         } catch (Exception e) {
             redirectAttrs.addFlashAttribute("error", e.getMessage());
             return "redirect:/user/register";
@@ -54,22 +55,16 @@ public class UserController {
     @GetMapping("/login")
     public String showLoginPage(Model model, @RequestParam(value = "error", required = false) String error,
                                 @RequestParam(value = "logout", required = false) String logout) {
-        if (error != null) {
-            model.addAttribute("error", "Invalid username or password!");
-        }
-        if (logout != null) {
-            model.addAttribute("message", "You have been logged out successfully.");
-        }
-        model.addAttribute("contentPage", "/WEB-INF/views/pages/login.jsp");
-        model.addAttribute("pageTitle", "Login");
-        return "layout/layout";
+        // Redirect to canonical /login to avoid duplicate mappings and redirect loops
+        return "redirect:/login";
     }
     // =================== PROFILE ===================
     @GetMapping("/profile")
     public String viewProfile(Model model, Principal principal) {
         User user = userService.findByUsername(principal.getName());
         model.addAttribute("user", user);
-        model.addAttribute("contentPage", "/WEB-INF/views/profile.jsp");
+        // profile.jsp lives under pages directory
+        model.addAttribute("contentPage", "/WEB-INF/views/pages/profile.jsp");
         model.addAttribute("pageTitle", "My Profile");
         return "layout/layout";
     }
@@ -79,7 +74,7 @@ public class UserController {
         userService.updateUserProfile(principal.getName(), user);
         model.addAttribute("message", "Profile updated successfully!");
         model.addAttribute("user", userService.findByUsername(principal.getName()));
-        model.addAttribute("contentPage", "/WEB-INF/views/profile.jsp");
+        model.addAttribute("contentPage", "/WEB-INF/views/pages/profile.jsp");
         return "layout/layout";
     }
 
@@ -87,9 +82,9 @@ public class UserController {
     @GetMapping("/list")
     public String listUsers(Model model) {
         model.addAttribute("users", userService.findAllUsers());
+        // adminUsers.jsp will be placed in WEB-INF/views/admin/
         model.addAttribute("contentPage", "/WEB-INF/views/admin/adminUsers.jsp");
         model.addAttribute("pageTitle", "All Users");
         return "layout/layout";
     }
 }
-

@@ -27,7 +27,7 @@ public class MovieController {
     @Autowired
     private ShowService showService;
 
-    // List all movies
+    // List all movies (admin)
     @GetMapping
     public String listMovies(Model model, @RequestParam(required = false) String search) {
         List<Movie> movies;
@@ -75,38 +75,8 @@ public class MovieController {
         movieService.deleteMovie(id);
         return "redirect:/admin/movies";
     }
-    
- // === USER MOVIE BROWSING ===
 
-    @GetMapping("/movies")
-    public String listMoviesForUser(@RequestParam(required = false) String search,
-                                    @RequestParam(required = false) String language,
-                                    Model model) {
-        List<Movie> movies;
-
-        if (search != null && !search.isEmpty()) {
-            movies = movieService.searchMovies(search);
-        } else {
-            movies = movieService.findAllMovies();
-        }
-
-        model.addAttribute("movies", movies);
-        model.addAttribute("search", search);
-        model.addAttribute("contentPage", "/WEB-INF/views/user/movies.jsp");
-        model.addAttribute("pageTitle", "Now Showing");
-        return "layout/layout";
-    }
-
-    @GetMapping("/movies/{id}/shows")
-    public String listShowsForMovie(@PathVariable Integer id, Model model) {
-        Movie movie = movieService.findById(id);
-        List<Show> shows = showService.findUpcomingShows(movie);
-        model.addAttribute("movie", movie);
-        model.addAttribute("shows", shows);
-        model.addAttribute("contentPage", "/WEB-INF/views/user/movieShows.jsp");
-        model.addAttribute("pageTitle", movie.getTitle() + " - Showtimes");
-        return "layout/layout";
-    }
+    // Note: user-facing /movies mappings have been moved to a dedicated UserMovieController
+    // to avoid route collisions with the admin endpoints.
 
 }
-

@@ -37,7 +37,7 @@ public class PaymentController {
         // In production: redirect to Razorpay checkout page
         model.addAttribute("payment", payment);
         model.addAttribute("booking", booking);
-        model.addAttribute("contentPage", "/WEB-INF/views/user/paymentPage.jsp");
+        model.addAttribute("contentPage", "/WEB-INF/views/pages/paymentPage.jsp");
         model.addAttribute("pageTitle", "Make Payment");
         return "layout/layout";
     }
@@ -63,4 +63,3 @@ public class PaymentController {
         return start != -1 ? payload.substring(start, start + 36) : "unknown";
     }
 }
-

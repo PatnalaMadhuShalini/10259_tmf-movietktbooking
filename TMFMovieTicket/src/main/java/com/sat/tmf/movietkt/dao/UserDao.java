@@ -4,8 +4,6 @@ import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.query.Query;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Repository;
 
 import com.sat.tmf.movietkt.entities.User;
@@ -55,29 +53,8 @@ public class UserDao extends GenericDao<User, Integer> {
         return session.createQuery("from User", User.class).list();
     }
 
-    /**
-     * Authenticate user by username and password (plain — encode in service layer).
-     *
-     * @param username user’s username
-     * @param password plain password (compare encoded in service)
-     * @return matching User or null
-     */
-//    public User authenticate(String username, String password) {
-//        Session session = getSession();
-//        Query<User> query = session.createQuery("from User where username = :uname and password = :pwd", User.class);
-//        query.setParameter("uname", username);
-//        query.setParameter("pwd", password);
-//        return query.uniqueResult();
-//    }
-    @Autowired
-    private PasswordEncoder passwordEncoder; // inject the bean
-
-    public User authenticate(String username, String rawPassword) {
-        User user = findByUsername(username);
-        if (user != null && passwordEncoder.matches(rawPassword, user.getPassword())) {
-            return user;
-        }
-        return null;
-    }
+    // Removed PasswordEncoder injection and authenticate() to avoid circular
+    // bean dependency with SecurityConfig -> CustomUserDetailsService -> UserService
+    // Authentication is handled by CustomUserDetailsService using UserService.findByUsername
 
 }

@@ -14,7 +14,12 @@ public class SeatTemplate {
     @Column(nullable = false)
     private String name;
 
+    // Avoid using the SQL keyword/identifier "rows" as a column name.
+    // Map Java properties to safe column names instead.
+    @Column(name = "row_count")
     private Integer rows;
+
+    @Column(name = "col_count")
     private Integer cols;
 
     @ManyToOne(fetch = FetchType.LAZY)
@@ -43,5 +48,3 @@ public class SeatTemplate {
     public List<TemplateSeat> getSeats() { return seats; }
     public void setSeats(List<TemplateSeat> seats) { this.seats = seats; }
 }
-
-

@@ -1,0 +1,1283 @@
+* Host localhost:8081 was resolved.
+* IPv6: ::1
+* IPv4: 127.0.0.1
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying [::1]:8081...
+* Connected to localhost (::1) port 8081
+* using HTTP/1.x
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=A9D5B9246C8011076D7529CCECAF9F96; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:01 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=1E7F3A79926B0789AE10B463813F9166; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:01 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=D13FE0C11AD12690F9B46182E4B17077; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:01 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=12D30F3349C6A27C424D83ABDAEFC557; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:01 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=234586157A45F4639C52A2D99197465C; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:01 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=94D165229AF52E0BDFC0C9A43D76D340; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:01 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=F467FE52717C9AA074C32BAE5E510A93; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=AB1AE68115EA70744E72F23C69FBFCF9; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=4C0875FB727E8103AC12D8E7FD42E259; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=D363E972649A4A7709362489F6482037; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=B8D62CA41CD49A43066C9F203A188253; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=61063A9E5DC41BE060A2C6E0FCE0F2E8; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=F086C3BC25F6909D2F6F9B1082A260FA; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=13F4A995E2BD3CFD697621D656F4CB18; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=AB932795A49A0B67AE35E7DA14D40829; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=1D074042726AF13A98DFDBE52675AE4D; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=3115C211E178E0F1A079E67F2105E0E8; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=A4FBD9E3692CEE8975A8805CD4F33152; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=FCBB4F563575201E03D02CC2A38C1A30; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=75F7139B53F2255F020FABB9354E73AF; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=2816015EE68EF8C71103A679734F3368; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=88E5CDF31FCED1D63B37D8B6B8F15A84; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=C581FD7F6D73FCD68ADBD007C3E8E74B; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=56ED18EE4816E7E2D75B2886E201D22E; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=C940F832AF52EE82F83FC8905F5C0521; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=653D2CFF3DEFDB5FAD1819EB4B0F51D4; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=0449A19AE975FEB40840B078A2B658A9; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=36067082023360325989957BDC9E8822; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=64A56DC3A4CB01592FFE73338BA12CF1; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=415E57E51B9890F539A5C54AC99AA9D7; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=C136A37B6984A7793C1CD75B661B4DB2; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=3F44DD6535DC3EDD89C368071E18DB76; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=2E1C27E0C382414728BFE4B87F8620DF; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=A7EA11E6531C7DBDAAE1521828A618B6; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=1279802A96EE8DB1E7C5BF7F87AED6F3; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=172E2742C921EF9E82656C7E375F7C25; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=0DB58759A6FFA53ACCDA243BED140C2C; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=4A85538EBDA18EF6CFE1009F6F3B02DD; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=5A7A5D09DBCA94695383D37B9E365E90; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=6FCC574D6C4B8B3832543FA9C926A249; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=43A4DA2196D9FC7038A63431C74EBEEC; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=37AA688A018CA5671285C3FD08E9C5D8; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=4D093F961D95F4E0BC7E58635C4FCD9F; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=86C11B95D730AA157ACB7ABFF71C2D64; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=C32ED8944622B89F8EA98FA44AA7A80C; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=F2D78F7106303535D07CD4A383449E6B; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=FDF3544063139C7354380C384D601119; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=5FE5982003B3610034AF63516C8A60BD; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=D3D295BB30F75197650B050612ABABC9; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=ADDAF5F4B7EEBCF15F1950B7F0793E74; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Issue another request to this URL: 'http://localhost:8081/user/login'
+* Re-using existing http: connection with host localhost
+> GET /user/login HTTP/1.1
+> Host: localhost:8081
+> User-Agent: curl/8.13.0
+> Accept: */*
+> 
+* Request completely sent off
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=820840F62DB9D1F1ACC287BEB6377B85; Path=/; HttpOnly
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 0
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Pragma: no-cache
+< Expires: 0
+< X-Frame-Options: DENY
+< Location: http://localhost:8081/user/login
+< Content-Language: en-US
+< Content-Length: 0
+< Date: Fri, 28 Nov 2025 16:18:02 GMT
+* Ignoring the response-body
+* setting size while ignoring
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #0 to host localhost left intact
+* Maximum (50) redirects followed
+curl: (47) Maximum (50) redirects followed

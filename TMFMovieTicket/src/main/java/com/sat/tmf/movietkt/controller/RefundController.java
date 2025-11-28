@@ -30,7 +30,7 @@ public class RefundController {
         User user = userService.findByUsername(principal.getName());
         List<Refund> refunds = refundService.getRefundsForUser(user);
         model.addAttribute("refunds", refunds);
-        model.addAttribute("contentPage", "/WEB-INF/views/user/userRefunds.jsp");
+        model.addAttribute("contentPage", "/WEB-INF/views/pages/userRefunds.jsp");
         model.addAttribute("pageTitle", "My Refunds");
         return "layout/layout";
     }
@@ -45,4 +45,3 @@ public class RefundController {
         return "layout/layout";
     }
 }
-
